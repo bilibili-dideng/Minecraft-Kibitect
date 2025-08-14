@@ -1,0 +1,48 @@
+[2025-08-14 17:15:30] INFO: 正在加载: D:\Users\Administrator\PycharmProjects\Minecraft-Kibitect\data\lang\zh_cn.json
+[2025-08-14 17:15:30] DEBUG: 文件内容 (repr): '{\n  "com.dideng.Python.MC_Kb.GUI.Window_Title": "Minecraft-Kibitect",\n  "com.dideng.Python.MC_Kb.GUI.Tab_1": "地灯dideng自制",\n  "com.dideng.Python.MC_Kb.GUI.Tab_2": "网页",\n  "com.dideng.Python.MC_Kb.GUI.O'
+[2025-08-14 17:15:30] DEBUG: 成功加载 6 个词条
+[2025-08-14 17:15:30] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:15:30] INFO: 找到翻译: 'Minecraft-Kibitect'
+[2025-08-14 17:15:30] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:15:30] INFO: 找到翻译: '打开Vanction Minecraft Archive Viewer'
+[2025-08-14 17:15:30] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:15:30] INFO: 找到翻译: '地灯dideng自制'
+[2025-08-14 17:15:30] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:15:30] INFO: 找到翻译: '网页工具'
+[2025-08-14 17:15:30] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:15:30] INFO: 找到翻译: 'MC 导航网'
+[2025-08-14 17:15:30] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:15:30] INFO: 找到翻译: '网页'
+[2025-08-14 17:15:30] INFO: 启动程序成功！
+[2025-08-14 17:17:17] INFO: 正在加载: D:\Users\Administrator\PycharmProjects\Minecraft-Kibitect\data\lang\zh_cn.json
+[2025-08-14 17:17:17] DEBUG: 文件内容 (repr): '{\n  "com.dideng.Python.MC_Kb.GUI.Window_Title": "Minecraft-Kibitect",\n  "com.dideng.Python.MC_Kb.GUI.Tab_1": "地灯dideng自制",\n  "com.dideng.Python.MC_Kb.GUI.Tab_2": "网页",\n  "com.dideng.Python.MC_Kb.GUI.O'
+[2025-08-14 17:17:17] DEBUG: 成功加载 6 个词条
+[2025-08-14 17:17:18] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:18] INFO: 找到翻译: 'Minecraft-Kibitect'
+[2025-08-14 17:17:18] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:18] INFO: 找到翻译: '打开Vanction Minecraft Archive Viewer'
+[2025-08-14 17:17:18] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:18] INFO: 找到翻译: '地灯dideng自制'
+[2025-08-14 17:17:18] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:18] INFO: 找到翻译: '网页工具'
+[2025-08-14 17:17:18] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:18] INFO: 找到翻译: 'MC 导航网'
+[2025-08-14 17:17:18] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:18] INFO: 找到翻译: '网页'
+[2025-08-14 17:17:20] INFO: 启动程序成功！
+[2025-08-14 17:17:48] INFO: 正在加载: D:\Users\Administrator\PycharmProjects\Minecraft-Kibitect\data\lang\zh_cn.json
+[2025-08-14 17:17:48] DEBUG: 文件内容 (repr): '{\n  "com.dideng.Python.MC_Kb.GUI.Window_Title": "Minecraft-Kibitect",\n  "com.dideng.Python.MC_Kb.GUI.Tab_1": "地灯dideng自制",\n  "com.dideng.Python.MC_Kb.GUI.Tab_2": "网页",\n  "com.dideng.Python.MC_Kb.GUI.O'
+[2025-08-14 17:17:48] DEBUG: 成功加载 6 个词条
+[2025-08-14 17:17:48] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:48] INFO: 找到翻译: 'Minecraft-Kibitect'
+[2025-08-14 17:17:48] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:48] INFO: 找到翻译: '打开Vanction Minecraft Archive Viewer'
+[2025-08-14 17:17:48] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:48] INFO: 找到翻译: '地灯dideng自制'
+[2025-08-14 17:17:48] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:48] INFO: 找到翻译: '网页工具'
+[2025-08-14 17:17:48] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:48] INFO: 找到翻译: 'MC 导航网'
+[2025-08-14 17:17:48] DEBUG: {'com.dideng.Python.MC_Kb.GUI.Window_Title': 'Minecraft-Kibitect', 'com.dideng.Python.MC_Kb.GUI.Tab_1': '地灯dideng自制', 'com.dideng.Python.MC_Kb.GUI.Tab_2': '网页', 'com.dideng.Python.MC_Kb.GUI.Open_VMAV': '打开Vanction Minecraft Archive Viewer', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool': '网页工具', 'com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav': 'MC 导航网'}
+[2025-08-14 17:17:48] INFO: 找到翻译: '网页'
+[2025-08-14 17:17:49] INFO: 启动程序成功！
