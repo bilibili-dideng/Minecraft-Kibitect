@@ -133,7 +133,7 @@ class Ui_MainWindow(object):
             tr("com.dideng.Python.MC_Kb.GUI.Window_Title", self.translation_table, "Minecraft-Kibitect")
         )
         self.Open_VMAV.setText(
-            tr("com.dideng.Python.MC_Kb.GUI.Open_VMAV", self.translation_table, "Open Vanction Minecraft Archive Viewer")
+            tr("com.dideng.Python.MC_Kb.GUI.QPushButton_Open_VMAV", self.translation_table, "Open Vanction Minecraft Archive Viewer")
         )
         self.Open_CC.setText(
             tr("com.dideng.Python.MC_Kb.GUI.QPushButton_Open_CC",self.translation_table, "Open MC Coordinate Calculator&Converter")
