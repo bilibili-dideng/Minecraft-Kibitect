@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minecraft Kibitect - Development Overview</title>
+  <style>
+    /* 基本样式 */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #1e6fd9; /* 蓝色主题 */
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    code {
+      background-color: #f0f0f0;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    /* 项目结构图样式 */
+    .project-structure {
+      background-color: #282c34;
+      color: #abb2bf;
+      font-family: Consolas, Monaco, monospace;
+      white-space: pre-wrap;
+      overflow-x: auto;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* 英文和中文切换按钮 */
+    .language-switcher {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .language-switcher button {
+      background-color: #1e6fd9;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .language-switcher button:hover {
+      background-color: #1a5fb4;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- 标题 -->
+    <h1>Minecraft Kibitect - Development Overview</h1>
+
+    <!-- 英文和中文切换按钮 -->
+    <div class="language-switcher">
+      <button onclick="showEnglish()">English</button>
+      <button onclick="showChinese()">中文</button>
+    </div>
+
+    <!-- 英文内容 -->
+    <div id="english-content" class="content">
+      <h2>About Minecraft Kibitect</h2>
+      <p>Minecraft Kibitect is an open-source desktop tool designed to assist Minecraft players with archive management and utility integration. It is built using Python and PySide6, providing a user-friendly interface for managing your Minecraft worlds.</p>
+
+      <h2>Project Structure</h2>
+      <pre class="project-structure">
+        .
+        ├── .venv
+        │   └── library根目录
+        ├── com
+        │   └── dideng
+        │       └── Python
+        │           └── MC_Kb
+        │               ├── GUI
+        │               ├── logger
+        │               │   └── __init__.py
+        │               ├── Translations
+        │               ├── VMAV
+        │               └── Web
+        ├── data
+        │   ├── lang
+        │   │   ├── en_us.json
+        │   │   └── zh_cn.json
+        │   └── resources
+        │       ├── html
+        │       │   └── resources.html
+        │       └── icon
+        │           └── icon.ico
+        ├── theme
+        │   └── VMAV
+        │       └── theme.json
+        ├── Data Generator
+        ├── E7 Verification
+        ├── logs
+        ├── output
+        ├── Usage and Tutorial
+        │   └── auto-py-to-exe
+        │        └── Code
+        ├── main.py
+        ├── OPENME.html
+        └── README.md
+      </pre>
+
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Archive Viewer:</strong> Easily browse and manage your Minecraft world archives.</li>
+        <li><strong>Utility Integration:</strong> Access various online tools related to Minecraft.</li>
+        <li><strong>Multi-Language Support:</strong> Supports English and Chinese (more languages coming soon).</li>
+        <li><strong>Open Source:</strong> Fully open-source, feel free to contribute!</li>
+      </ul>
+
+      <h2>How to Contribute</h2>
+      <p>We welcome contributions! You can help by reporting bugs, suggesting features, or submitting pull requests on GitHub.</p>
+      <p><a href="https://github.com/bilibili-dideng/Minecraft-Kibitect" target="_blank">View the project on GitHub</a></p>
+    </div>
+
+    <!-- 中文内容 -->
+    <div id="chinese-content" class="content hidden">
+      <h2>Minecraft Kibitect 简介</h2>
+      <p>Minecraft Kibitect 是一个为《我的世界》玩家打造的桌面工具箱，支持存档查看与工具网站集成等功能。它使用 Python 和 PySide6 开发，提供友好的用户界面，帮助管理你的 Minecraft 世界。</p>
+
+      <h2>项目结构</h2>
+      <pre class="project-structure">
+        .
+        ├── .venv
+        │   └── library根目录
+        ├── com
+        │   └── dideng
+        │       └── Python
+        │           └── MC_Kb
+        │               ├── GUI
+        │               ├── logger
+        │               │   └── __init__.py
+        │               ├── Translations
+        │               ├── VMAV
+        │               └── Web
+        ├── data
+        │   ├── lang
+        │   │   ├── en_us.json
+        │   │   └── zh_cn.json
+        │   └── resources
+        │       ├── html
+        │       │   └── resources.html
+        │       └── icon
+        │           └── icon.ico
+        ├── theme
+        │   └── VMAV
+        │       └── theme.json
+        ├── Data Generator
+        ├── E7 Verification
+        ├── logs
+        ├── output
+        ├── Usage and Tutorial
+        │   └── auto-py-to-exe
+        │        └── Code
+        ├── main.py
+        ├── OPENME.html
+        └── README.md
+      </pre>
+
+      <h2>主要功能</h2>
+      <ul>
+        <li><strong>存档查看器：</strong>轻松浏览和管理你的 Minecraft 存档。</li>
+        <li><strong>工具集成：</strong>访问各种与 Minecraft 相关的在线工具。</li>
+        <li><strong>多语言支持：</strong>支持英语和中文（更多语言即将推出）。</li>
+        <li><strong>开源：</strong>完全开源，欢迎贡献！</li>
+      </ul>
+
+      <h2>如何贡献</h2>
+      <p>我们欢迎任何形式的贡献！你可以通过报告 bug、提出功能建议或在 GitHub 提交拉取请求来帮助我们。</p>
+      <p><a href="https://github.com/bilibili-dideng/Minecraft-Kibitect" target="_blank">在 GitHub 查看项目</a></p>
+    </div>
+
+    <!-- 脚本部分 -->
+    <script>
+      function showEnglish() {
+        document.getElementById('english-content').classList.remove('hidden');
+        document.getElementById('chinese-content').classList.add('hidden');
+      }
+
+      function showChinese() {
+        document.getElementById('english-content').classList.add('hidden');
+        document.getElementById('chinese-content').classList.remove('hidden');
+      }
+
+      // 默认显示英文内容
+      showEnglish();
+    </script>
+
+  </div>
+
+</body>
+</html>

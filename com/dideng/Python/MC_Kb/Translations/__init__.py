@@ -10,15 +10,14 @@ from com.dideng.Python.MC_Kb.logger import info, error, debug
 LanguageType = Literal["en_us", "zh_cn"]
 
 # 获取项目根目录
-ROOT_DIR = os.getcwd()
+ROOT_DIR = "D:\\Users\Administrator\PycharmProjects\Minecraft-Kibitect"
 LANG_DIR = os.path.join(ROOT_DIR, "data", "lang")
 
 translation_table:dict[str, str] = {}
 Attempts = 0
-print = "123"
-def load_language(language: LanguageType) -> Dict[str, str]:
+def load_language(language: LanguageType|str) -> Dict[str, str]:
     """
-    加载语言文件，返回翻译表
+    Load language file and return translation table
     """
     file_path = os.path.join(LANG_DIR, f"{language}.json")
     info(f"正在加载: {file_path}")
@@ -58,11 +57,11 @@ def load_language(language: LanguageType) -> Dict[str, str]:
 
 def tr(key: str, translation_table: Dict[str, str], default: str = None) -> str:
     """
-    翻译函数
-    :param key: 翻译键
-    :param translation_table: 翻译表（由 load_language 返回）
-    :param default: 默认值
-    :return: 翻译结果
+    Translation function
+    : param key: translation key
+    : param translation_table: Translation table (returned by load_language)
+    : param default: default value
+    : return: Translation result
     """
     debug(translation_table)
     value = translation_table.get(key)

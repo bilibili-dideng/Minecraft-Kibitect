@@ -9,6 +9,9 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QMainWindow, QMenuBar, QSizePolicy,
                                QStatusBar, QTabWidget, QWidget, QPushButton, QHBoxLayout, QVBoxLayout, QToolBar)
 
+from com.dideng.Python.MC_Kb.logger import info
+
+
 class MainWindow(QMainWindow):
     def __init__(self,translation_table: dict):
         super().__init__()
@@ -32,7 +35,7 @@ from PySide6.QtWidgets import (QApplication, QHBoxLayout, QMainWindow, QPushButt
 
 class Ui_MainWindow(object):
     def __init__(self, translation_table: dict):
-        self.translation_table = translation_table  # 保存翻译表
+        self.translation_table = translation_table
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
@@ -73,19 +76,19 @@ class Ui_MainWindow(object):
         self.tabWidget.setObjectName(u"tabWidget")
         self.tab_3 = QWidget()
         self.tab_3.setObjectName(u"tab_3")
-        self.verticalLayout_5 = QVBoxLayout(self.tab_3)
-        self.verticalLayout_5.setObjectName(u"verticalLayout_5")
-        self.horizontalLayout = QHBoxLayout()
-        self.horizontalLayout.setObjectName(u"horizontalLayout")
-        self.horizontalLayout.setContentsMargins(-1, 0, -1, 0)
+        self.verticalLayout_2 = QVBoxLayout(self.tab_3)
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
         self.Open_VMAV = QPushButton(self.tab_3)
         self.Open_VMAV.setObjectName(u"Open_VMAV")
         self.Open_VMAV.setMinimumSize(QSize(25, 25))
 
-        self.horizontalLayout.addWidget(self.Open_VMAV)
+        self.verticalLayout_2.addWidget(self.Open_VMAV)
 
+        self.Open_CC = QPushButton(self.tab_3)
+        self.Open_CC.setObjectName(u"Open_CC")
+        self.Open_CC.setMinimumSize(QSize(25, 25))
 
-        self.verticalLayout_5.addLayout(self.horizontalLayout)
+        self.verticalLayout_2.addWidget(self.Open_CC)
 
         self.tabWidget.addTab(self.tab_3, "")
         self.tab_4 = QWidget()
@@ -119,12 +122,11 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
-
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(
@@ -133,12 +135,15 @@ class Ui_MainWindow(object):
         self.Open_VMAV.setText(
             tr("com.dideng.Python.MC_Kb.GUI.Open_VMAV", self.translation_table, "Open Vanction Minecraft Archive Viewer")
         )
-        self.tabWidget.setTabText(
-            self.tabWidget.indexOf(self.tab_3),
-            tr("com.dideng.Python.MC_Kb.GUI.Tab_1", self.translation_table, "dideng homemade")
+        self.Open_CC.setText(
+            tr("com.dideng.Python.MC_Kb.GUI.QPushButton_Open_CC",self.translation_table, "Open MC Coordinate Calculator&Converter")
         )
         self.Open_web.setText(
             tr("com.dideng.Python.MC_Kb.GUI.QPushButton_Open_Web_Tool", self.translation_table, "Web Tool")
+        )
+        self.tabWidget.setTabText(
+            self.tabWidget.indexOf(self.tab_3),
+            tr("com.dideng.Python.MC_Kb.GUI.Tab_1", self.translation_table, "dideng homemade")
         )
         self.MC_Nav.setText(
             tr("com.dideng.Python.MC_Kb.GUI.QPushButton_Open_MC_Nav", self.translation_table, "MC Nav")

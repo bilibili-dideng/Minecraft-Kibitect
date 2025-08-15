@@ -48,35 +48,38 @@ QPushButton:disabled {
         <item>
          <widget class="QTabWidget" name="tabWidget">
           <property name="currentIndex">
-           <number>1</number>
+           <number>0</number>
           </property>
           <widget class="QWidget" name="tab_3">
            <attribute name="title">
             <string>地灯dideng自制</string>
            </attribute>
-           <layout class="QVBoxLayout" name="verticalLayout_5">
+           <layout class="QVBoxLayout" name="verticalLayout_2">
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout">
-              <property name="topMargin">
-               <number>0</number>
+             <widget class="QPushButton" name="Open_VMAV">
+              <property name="minimumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
               </property>
-              <property name="bottomMargin">
-               <number>0</number>
+              <property name="text">
+               <string>打开Vanction Minecraft Archive Viewer</string>
               </property>
-              <item>
-               <widget class="QPushButton" name="Open_VMAV">
-                <property name="minimumSize">
-                 <size>
-                  <width>25</width>
-                  <height>25</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>打开Vanction Minecraft Archive Viewer</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="Open_CC">
+              <property name="minimumSize">
+               <size>
+                <width>25</width>
+                <height>25</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>打开MC坐标计算换算器</string>
+              </property>
+             </widget>
             </item>
            </layout>
           </widget>

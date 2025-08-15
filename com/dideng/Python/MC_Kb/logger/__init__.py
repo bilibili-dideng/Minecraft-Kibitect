@@ -16,7 +16,7 @@ log_colors_config = {
     'INFO': 'green',
     'WARNING': 'yellow',
     'ERROR': 'red',
-    'CRITICAL': 'red,bg_white',  # 红底白字
+    'CRITICAL': 'purple',
 }
 
 # 创建彩色格式器
